@@ -1,0 +1,92 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://via.placeholder.com/1600x900') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .login-card {
+    background-color: lightpink; /* Semi-transparent background */
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border-color: #6fff00;
+    background-color: #fff;
+  }
+  
+  .login-button {
+    padding: 14px 0;
+    background-color: #00ff1a;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .login-button:hover {
+    background-color: yellow;
+  }
+  
+  .login-button:active {
+    background-color: #933b00;
+  }
+  
+  @media (max-width: 600px) {
+    .login-card {
+      padding: 30px 20px;
+    }
+  
+    .login-title {
+      font-size: 24px;
+    }
+  
+    .input-field {
+      font-size: 14px;
+    }
+  
+    .login-button {
+      font-size: 14px;
+    }
+  }
+  
